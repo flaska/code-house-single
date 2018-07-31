@@ -1,0 +1,19 @@
+{
+  "name": "code-house",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "compression": "^1.7.2",
+    "express": "^4.16.3",
+    "path": "^0.12.7"
+  },
+  "engines": {
+    "node": "8.9.1"
+  }
+}
