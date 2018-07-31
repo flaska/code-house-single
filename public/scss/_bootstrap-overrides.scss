@@ -20,6 +20,11 @@ a {
   background-color: $secondary !important;
 }
 
+.bg-textcolor {
+  background-color: $text-color !important;
+}
+
+
 .text-primary {
   color: $primary !important;
 }
@@ -47,5 +52,17 @@ a {
   &:active {
     background-color: darken($secondary, 10%);
     border-color: darken($secondary, 10%);
+  }
+}
+
+
+.btn-outline-primary {
+  color: $text-color!important;
+  border-color: $text-color!important;
+  &:hover,
+  &:focus,
+  &:active {
+    color: $primary!important;
+    background-color: $text-color;
   }
 }

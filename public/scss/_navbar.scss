@@ -4,14 +4,14 @@
   padding-bottom: 1rem;
   @include heading-font;
   .navbar-brand {
-    color: $white;
+    color: $text-color;
   }
   .navbar-nav {
     margin-top: 1rem;
     letter-spacing: 0.0625rem;
     li.nav-item {
       a.nav-link {
-        color: $white;
+        color: $text-color;
         &:hover {
           color: $primary;
         }

@@ -38,10 +38,10 @@ hr.star-dark:after {
 }
 
 hr.star-light {
-  border-color: $white;
+  border-color: $text-color;
 }
 hr.star-light:after {
-  color: $white;
+  color: $text-color;
   background-color: $primary;
 }
 
@@ -96,4 +96,8 @@ section {
   }
 }
 
-.text-white { color: #795548 !important; }
+.text-white { color: $text-color !important; }
+
+//a.bg-primary:focus, a.bg-primary:hover, button.bg-primary:focus, button.bg-primary:hover {
+//  background-color: $text-color!important;
+//}
