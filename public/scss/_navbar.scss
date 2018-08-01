@@ -17,7 +17,7 @@
         }
         &:active,
         &:focus {
-          color: $white;
+          color: $text-color;
         }
         &.active {
           color: $primary;
@@ -47,12 +47,12 @@
       margin-top: 0;
     }
     .navbar-nav > li.nav-item > a.nav-link.active {
-      color: $white;
+      color: $text-color;
       background: $primary;
       &:active,
       &:focus,
       &:hover {
-        color: $white;
+        color: $text-color;
         background: $primary;
       }
     }
