@@ -55,7 +55,7 @@ hr.star-dark:after {
 }
 
 section {
-  padding: 6rem 0;
+  padding: 4rem 0;
 }
 
 section h2 {
@@ -64,6 +64,9 @@ section h2 {
 }
 
 @media (min-width: 992px) {
+  section {
+    padding: 5rem 0;
+  }
   section h2 {
     font-size: 3rem;
     line-height: 2.5rem;
@@ -172,8 +175,8 @@ section h2 {
 }
 
 header.masthead {
-  padding-top: calc(6rem + 72px);
-  padding-bottom: 6rem;
+  padding-top: calc(3rem + 72px);
+  padding-bottom: 5rem;
 }
 
 header.masthead h1 {
@@ -327,8 +330,8 @@ form .row:first-child .floating-label-form-group {
 }
 
 .footer {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-top: 4rem;
+  padding-bottom: 3rem;
   background-color: #F25F5C;
   color: #fff;
 }
