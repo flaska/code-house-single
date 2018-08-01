@@ -240,8 +240,12 @@ header.masthead h2 {
   min-height: 180px;
 }
 
-#services_website_1 {
-  max-width: 30%;
+.services_img {
+  width: 100%;
+}
+
+.flip {
+  transform: scaleX(-1);
 }
 
 .portfolio {
@@ -414,4 +418,16 @@ a:focus, a:hover, a:active {
 .btn-outline-primary:hover, .btn-outline-primary:focus, .btn-outline-primary:active {
   color: #FFEE58 !important;
   background-color: #0a2b4b !important;
+}
+
+.form-control:focus {
+  background-color: transparent !important;
+}
+
+label {
+  color: #F25F5C !important;
+}
+
+.form-control {
+  color: #0a2b4b !important;
 }

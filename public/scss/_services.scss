@@ -9,6 +9,10 @@
   }
 }
 
-#services_website_1 {
-  max-width: 30%;
+.services_img {
+  width: 100%;
+}
+
+.flip {
+  transform: scaleX(-1);
 }
