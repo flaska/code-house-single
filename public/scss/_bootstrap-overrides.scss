@@ -63,6 +63,6 @@ a {
   &:focus,
   &:active {
     color: $primary!important;
-    background-color: $text-color;
+    background-color: $text-color!important;
   }
 }
