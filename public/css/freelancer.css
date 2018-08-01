@@ -406,8 +406,8 @@ a:focus, a:hover, a:active {
 }
 
 .btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active {
-  background-color: #ee312d;
-  border-color: #ee312d;
+  background-color: #f68d8b;
+  border-color: #f68d8b;
 }
 
 .btn-outline-primary {
@@ -420,6 +420,11 @@ a:focus, a:hover, a:active {
   background-color: #0a2b4b !important;
 }
 
+.floating-label-form-group {
+  position: relative;
+  border-bottom: 1px solid #0a2b4b;
+}
+
 .form-control:focus {
   background-color: transparent !important;
 }
@@ -430,4 +435,8 @@ label {
 
 .form-control {
   color: #0a2b4b !important;
+}
+
+::placeholder {
+  color: #F25F5C !important;
 }

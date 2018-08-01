@@ -50,8 +50,8 @@ a {
   &:hover,
   &:focus,
   &:active {
-    background-color: darken($secondary, 10%);
-    border-color: darken($secondary, 10%);
+    background-color: lighten($secondary, 10%);
+    border-color: lighten($secondary, 10%);
   }
 }
 
@@ -67,6 +67,14 @@ a {
   }
 }
 
+
+
+
+.floating-label-form-group {
+  position: relative;
+  border-bottom: 1px solid $text-color;
+}
+
 .form-control:focus {
   background-color: transparent!important;
 }
@@ -77,4 +85,8 @@ label {
 
 .form-control {
   color: $text-color!important;
+}
+::placeholder {
+  color: $secondary!important;
+
 }
