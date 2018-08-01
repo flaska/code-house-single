@@ -1,0 +1,10 @@
+#mission_list {
+  .mission_item{
+    border-radius: 3px;
+    border: 1px solid $text-color;
+    .mission_item_content{
+      padding: 5px;
+      min-height: 180px;
+    }
+  }
+}

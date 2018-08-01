@@ -13,7 +13,8 @@ h6 {
 }
 
 hr.star-light,
-hr.star-dark {
+hr.star-dark,
+hr.star-secondary {
   max-width: 15rem;
   padding: 0;
   text-align: center;
@@ -26,6 +27,7 @@ hr.star-dark {
 }
 
 hr.star-light:after,
+hr.star-secondary:after,
 hr.star-dark:after {
   position: relative;
   top: -.8em;
@@ -45,13 +47,24 @@ hr.star-light:after {
   background-color: #FFEE58;
 }
 
-hr.star-dark {
+hr.star-secondary {
   border-color: #F25F5C;
 }
 
-hr.star-dark:after {
+hr.star-secondary:after {
   color: #F25F5C;
   background-color: white;
+}
+
+hr.star-dark {
+  border-top: solid 1px;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+hr.star-dark:after {
+  background-color: white;
+  font-size: 1em;
 }
 
 section {
@@ -205,6 +218,16 @@ header.masthead h2 {
   header.masthead h2 {
     font-size: 1.75em;
   }
+}
+
+#mission_list .mission_item {
+  border-radius: 3px;
+  border: 1px solid #0a2b4b;
+}
+
+#mission_list .mission_item .mission_item_content {
+  padding: 5px;
+  min-height: 180px;
 }
 
 .portfolio {
