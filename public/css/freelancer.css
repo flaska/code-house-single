@@ -230,6 +230,20 @@ header.masthead h2 {
   min-height: 180px;
 }
 
+#services_content .service_item {
+  border-radius: 3px;
+  border: 1px solid #0a2b4b;
+}
+
+#services_content .service_item .service_item_content {
+  padding: 5px;
+  min-height: 180px;
+}
+
+#services_website_1 {
+  max-width: 30%;
+}
+
 .portfolio {
   margin-bottom: -15px;
 }

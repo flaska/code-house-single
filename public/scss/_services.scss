@@ -1,0 +1,14 @@
+#services_content {
+  .service_item{
+    border-radius: 3px;
+    border: 1px solid $text-color;
+    .service_item_content{
+      padding: 5px;
+      min-height: 180px;
+    }
+  }
+}
+
+#services_website_1 {
+  max-width: 30%;
+}
