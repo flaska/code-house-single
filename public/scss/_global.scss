@@ -97,7 +97,9 @@ section {
   }
 }
 
-.text-white { color: $text-color !important; }
+.text-main { color: $text-color !important; }
+
+.text-white { color: white !important; }
 
 //a.bg-primary:focus, a.bg-primary:hover, button.bg-primary:focus, button.bg-primary:hover {
 //  background-color: $text-color!important;

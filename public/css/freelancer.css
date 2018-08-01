@@ -99,8 +99,12 @@ section h2 {
   line-height: 3.1rem;
 }
 
-.text-white {
+.text-main {
   color: #0a2b4b !important;
+}
+
+.text-white {
+  color: white !important;
 }
 
 #mainNav {
