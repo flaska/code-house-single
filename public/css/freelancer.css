@@ -362,6 +362,12 @@ header.masthead h2 {
   border-left: 1px solid #e9ecef;
 }
 
+.floating-label-form-group .help-block {
+  position: absolute;
+  top: 57px;
+  left: 50px;
+}
+
 .floating-label-form-group-with-value label {
   top: 0;
   opacity: 1;
