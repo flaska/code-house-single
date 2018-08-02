@@ -1,6 +1,6 @@
 .service_item {
   border-bottom: 1px solid $text-color;
-  min-height: 283px;
+  @media (min-width: 1200px) { min-height: 410px;}
   @media (min-width: 1200px) {
     &.left_border {
       border-left: 1px solid $text-color;

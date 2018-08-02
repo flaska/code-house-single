@@ -232,7 +232,12 @@ header.masthead h2 {
 
 .service_item {
   border-bottom: 1px solid #0a2b4b;
-  min-height: 283px;
+}
+
+@media (min-width: 1200px) {
+  .service_item {
+    min-height: 410px;
+  }
 }
 
 @media (min-width: 1200px) {
