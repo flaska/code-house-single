@@ -232,10 +232,41 @@ header.masthead h2 {
 
 .service_item {
   border-bottom: 1px solid #0a2b4b;
+  min-height: 283px;
+}
+
+@media (min-width: 1200px) {
+  .service_item.left_border {
+    border-left: 1px solid #0a2b4b;
+  }
 }
 
 .services_img {
-  width: 100%;
+  width: 50%;
+}
+
+@media (min-width: 576px) {
+  .services_img {
+    width: 50%;
+  }
+}
+
+@media (min-width: 768px) {
+  .services_img {
+    width: 100%;
+  }
+}
+
+@media (min-width: 992px) {
+  .services_img {
+    width: 80%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .services_img {
+    width: 100%;
+  }
 }
 
 .flip {
