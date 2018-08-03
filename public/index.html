@@ -101,7 +101,7 @@
         <div class="row text-main" id="mission_list">
 
           <div class="col-md-4 col-lg-4 text-center mb-3 mb-lg-0">
-              <div class="mission_item pt-3">
+              <div class="mission_item pt-3" id="mission_item_1">
                 <i class="fa fa-trophy fa-2x"></i>
                 <h4 class="text-uppercase">Quality</h4>
                 <hr class="star-dark text-main">
@@ -157,7 +157,7 @@
           <div class="row">
 
             <div class="col-xl-6 col-lg-12">
-              <div class="row  mt-3 mb-3 service_item">
+              <div class="row  mt-3 mb-3 service_item" id="service_item_1">
                   <div class="col-md-4 text-center">
                       <img class="services_img flip" src="/img/services/website-3.png">
                   </div>
@@ -230,7 +230,9 @@
 
 
     <!-- Portfolio Grid Section -->
-    <section class="portfolio text-main" id="portfolio">
+    <section class="portfolio text-main" id="portfolio" onclick="window.dataLayer.push({
+ 'event': 'PortfolioLinkClick'
+ })">
       <div class="container">
         <h2 class="text-center text-uppercase text-secondary mb-0">Portfolio</h2>
         <hr class="star-secondary mb-5">
