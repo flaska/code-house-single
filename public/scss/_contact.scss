@@ -1,10 +1,10 @@
 // Styling for the contact section
 .floating-label-form-group {
   position: relative;
-  border-bottom: 1px solid $gray-200;
+  border-bottom: 1px solid #0a2b4b78!important;
   input,
   textarea {
-    font-size: 1.5em;
+    font-size: 1em;
     position: relative;
     z-index: 1;
     padding-right: 0;
@@ -37,7 +37,7 @@
   }
   .help-block {
     position: absolute;
-    top: 57px;
+    top: 46px;
     left: 50px;
   }
 }
