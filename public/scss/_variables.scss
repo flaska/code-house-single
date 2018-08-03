@@ -12,7 +12,16 @@ $gray-800: #343a40 !default;
 $gray-900: #212529 !default;
 $black: #000 !default;
 
-$primary: #ECDD7B !default;
-$secondary: #CE8147 !default;
 
-$text-color: #561D25 !default;
+
+$primary: #182142 !default;
+$secondary: #DC2430 !default;
+
+$text-on-primary: #dcdcdc !default;
+$text-on-secondary: #dcdcdc !default;
+$text-on-gradient: #dcdcdc !default;
+
+$gradient-color-1: #7b4397!default;
+$gradient-color-2: #dc2430!default;
+
+$text-color: $text-on-gradient;

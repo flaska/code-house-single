@@ -67,7 +67,16 @@ a {
   }
 }
 
-
+.btn-outline-secondary {
+  color: $text-color!important;
+  border-color: $text-color!important;
+  &:hover,
+  &:focus,
+  &:active {
+    color: $text-on-primary!important;
+    background-color: $primary!important;
+  }
+}
 
 
 .floating-label-form-group {
@@ -87,6 +96,13 @@ label {
   color: $text-color!important;
 }
 ::placeholder {
-  color: $secondary!important;
+  color: $text-on-primary!important;
+}
 
+
+.btn-outline-secondary {
+  color: $primary!important;
+  background-color: transparent;
+  background-image: none;
+  border-color: $primary!important;
 }

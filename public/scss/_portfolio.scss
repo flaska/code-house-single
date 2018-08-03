@@ -20,7 +20,7 @@
       -moz-transition: all ease 0.5s;
       transition: all ease 0.5s;
       opacity: 0;
-      background-color: fade-out($secondary, .1);
+      background-color: fade-out($primary, .1);
       border-radius: 5px;
       &:hover {
         opacity: 1;

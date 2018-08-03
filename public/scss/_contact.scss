@@ -1,7 +1,7 @@
 // Styling for the contact section
 .floating-label-form-group {
   position: relative;
-  border-bottom: 1px solid #0a2b4b78!important;
+  border-bottom: 1px solid $text-on-primary!important;
   input,
   textarea {
     font-size: 1em;

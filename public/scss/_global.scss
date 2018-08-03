@@ -15,7 +15,8 @@ h6 {
 // Custom Horizontal Rule with Star Icon
 hr.star-light,
 hr.star-dark,
-hr.star-secondary{
+hr.star-secondary,
+hr.star-primary{
   max-width: 15rem;
   padding: 0;
   text-align: center;
@@ -29,12 +30,13 @@ hr.star-secondary{
 
 hr.star-light:after,
 hr.star-secondary:after,
-hr.star-dark:after{
+hr.star-dark:after,
+hr.star-primary:after{
   position: relative;
   top: -.8em;
   display: inline-block;
   padding: 0 0.25em;
-  content: '\f005';
+  content: '\f1cb';
   font-family: FontAwesome;
   font-size: 1.3em;
 }
@@ -44,15 +46,21 @@ hr.star-light {
 }
 hr.star-light:after {
   color: $text-color;
-  background-color: $primary;
+  //background-color: $primary;
 }
 
 hr.star-secondary {
   border-color: $secondary;
 }
+hr.star-primary {
+  border-color: $primary;
+}
 hr.star-secondary:after {
   color: $secondary;
   background-color: white;
+}
+hr.star-primary{
+  color: $primary;
 }
 
 hr.star-dark {
@@ -113,3 +121,11 @@ section {
 .text-main { color: $text-color !important; }
 
 .text-white { color: white !important; }
+
+.bg-gradient {  background: url(https://blackrockdigital.github.io/startbootstrap-new-age/img/bg-pattern.png),linear-gradient(to left,$gradient-color-1, $gradient-color-2);}
+
+.text-on-primary {color: $text-on-primary;}
+
+strong {
+  font-weight: 500;
+}
