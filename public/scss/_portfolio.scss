@@ -23,7 +23,8 @@
       -moz-transition: all ease 0.5s;
       transition: all ease 0.5s;
       opacity: 0;
-      background-color: fade-out($primary, .1);
+      background-color: fade-out($background-dark-variant, .1);
+      color: $txt-on-bg-dark-variant;
       border-radius: 5px;
       &:hover {
         opacity: 1;

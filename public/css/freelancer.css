@@ -282,7 +282,8 @@ header.masthead h2 {
   -moz-transition: all ease 0.5s;
   transition: all ease 0.5s;
   opacity: 0;
-  background-color: rgba(24, 33, 66, 0.9);
+  background-color: rgba(48, 61, 59, 0.9);
+  color: #E9E4E1;
   border-radius: 5px;
 }
 
@@ -305,6 +306,7 @@ header.masthead h2 {
 
 .floating-label-form-group {
   position: relative;
+  border-bottom: 1px solid #303D3B !important;
 }
 
 .floating-label-form-group input,
@@ -343,27 +345,29 @@ header.masthead h2 {
   border-left: 1px solid #e9ecef;
 }
 
-.floating-label-form-group .help-block {
-  position: absolute;
-  top: 46px;
-  left: 50px;
-}
-
 .floating-label-form-group-with-value label {
   top: 0;
   opacity: 1;
 }
 
 .floating-label-form-group-with-focus label {
-  color: #182142;
+  color: #303D3B !important;
 }
 
 form .row:first-child .floating-label-form-group {
   border-top: 1px solid #e9ecef;
 }
 
+.floating-label-form-group {
+  position: relative;
+}
+
+.form-control:focus {
+  background-color: transparent !important;
+}
+
 .footer {
-  padding-top: 3rem;
+  padding-top: 2rem;
   padding-bottom: 1rem;
 }
 
@@ -417,23 +421,6 @@ a:focus, a:hover, a:active {
 .bg-light-ch .btn-outline-primary:hover, .bg-light-ch .btn-outline-primary:focus, .bg-light-ch .btn-outline-primary:active {
   color: #E9E4E1 !important;
   background-color: #303D3B !important;
-}
-
-.floating-label-form-group {
-  position: relative;
-}
-
-.form-control:focus {
-  background-color: transparent !important;
-}
-
-label {
-  color: #DC2430 !important;
-}
-
-.btn-outline-secondary {
-  background-color: transparent;
-  background-image: none;
 }
 
 b {
