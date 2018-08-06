@@ -355,8 +355,12 @@ form .row:first-child .floating-label-form-group {
 }
 
 .footer {
-  padding-top: 4rem;
-  padding-bottom: 2rem;
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+}
+
+.copyright {
+  background-color: #1a201f;
 }
 
 a {
@@ -422,4 +426,8 @@ label {
 .btn-outline-secondary {
   background-color: transparent;
   background-image: none;
+}
+
+b {
+  font-weight: 500;
 }

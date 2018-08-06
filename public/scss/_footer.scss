@@ -1,9 +1,8 @@
 .footer {
-  padding-top: 4rem;
-  padding-bottom: 2rem;
+  padding-top: 3rem;
+  padding-bottom: 1rem;
 }
 
 .copyright {
-  //background-color: $primary;
-  //color: $text-on-primary;
+  background-color: darken($background-dark-variant, 10%);
 }
