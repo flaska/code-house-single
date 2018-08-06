@@ -4,23 +4,19 @@
   padding-bottom: 1rem;
   @include heading-font;
   .navbar-brand {
-    color: $text-color;
+    color: $background-light;
   }
+
   .navbar-nav {
     margin-top: 1rem;
     letter-spacing: 0.0625rem;
     li.nav-item {
       a.nav-link {
-        color: $text-color;
-        &:hover {
-          color: $primary;
-        }
+        color: $background-light;
+        &:hover,
         &:active,
         &:focus {
-          color: $text-color;
-        }
-        &.active {
-          color: $primary;
+          color: $background-dark;
         }
       }
     }
@@ -47,13 +43,11 @@
       margin-top: 0;
     }
     .navbar-nav > li.nav-item > a.nav-link.active {
-      color: $text-color;
-      background: $primary;
+      color: $background-light;
+      &:hover,
       &:active,
-      &:focus,
-      &:hover {
-        color: $text-color;
-        background: $primary;
+      &:focus {
+        color: $background-dark;
       }
     }
   }

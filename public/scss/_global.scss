@@ -13,10 +13,7 @@ h6 {
 }
 
 // Custom Horizontal Rule with Star Icon
-hr.star-light,
-hr.star-dark,
-hr.star-secondary,
-hr.star-primary{
+hr.star{
   max-width: 15rem;
   padding: 0;
   text-align: center;
@@ -28,10 +25,7 @@ hr.star-primary{
   margin-right: auto;
 }
 
-hr.star-light:after,
-hr.star-secondary:after,
-hr.star-dark:after,
-hr.star-primary:after{
+hr.star:after{
   position: relative;
   top: -.8em;
   display: inline-block;
@@ -41,37 +35,14 @@ hr.star-primary:after{
   font-size: 1.3em;
 }
 
-hr.star-light {
-  border-color: $text-color;
+.bg-dark-ch hr.star {
+  //color: $txt-on-bg-dark;
 }
-hr.star-light:after {
-  color: $text-color;
-  //background-color: $primary;
+.bg-dark-ch hr.star:after {
+  background-color: $background-dark;
 }
-
-hr.star-secondary {
-  border-color: $secondary;
-}
-hr.star-primary {
-  border-color: $primary;
-}
-hr.star-secondary:after {
-  color: $secondary;
-  background-color: white;
-}
-hr.star-primary{
-  color: $primary;
-}
-
-hr.star-dark {
-  border-top: solid 1px;
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
-}
-
-hr.star-dark:after {
-  background-color: white;
-  font-size: 1em;
+.bg-light-ch hr.star:after {
+  background-color: $background-light;
 }
 
 // Section Padding Settings
@@ -118,13 +89,17 @@ section {
   }
 }
 
-.text-main { color: $text-color !important; }
 
-.text-white { color: white !important; }
+.bg-dark-ch {
+  background-color: $background-dark;
+  color: $txt-on-bg-dark;
+}
+.bg-dark-ch-variant {
+  background-color: $background-dark-variant;
+  color: $txt-on-bg-dark-variant;
+}
+.bg-light-ch {background-color: $background-light;}
 
-.bg-gradient {  background: url(https://blackrockdigital.github.io/startbootstrap-new-age/img/bg-pattern.png),linear-gradient(to left,$gradient-color-1, $gradient-color-2);}
-
-.text-on-primary {color: $text-on-primary;}
 
 strong {
   font-weight: 500;

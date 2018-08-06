@@ -17,11 +17,10 @@ $black: #000 !default;
 $primary: #182142 !default;
 $secondary: #DC2430 !default;
 
-$text-on-primary: #dcdcdc !default;
-$text-on-secondary: #dcdcdc !default;
-$text-on-gradient: #dcdcdc !default;
+$background-light: #E9E4E1 !default;
+$background-dark: #CFC0BD!default;
+$background-dark-variant: #303D3B!default;
 
-$gradient-color-1: #7b4397!default;
-$gradient-color-2: #dc2430!default;
-
-$text-color: $text-on-gradient;
+$txt-on-bg-light: #303D3B!default;
+$txt-on-bg-dark: #303D3B!default;
+$txt-on-bg-dark-variant: #303D3B!default;

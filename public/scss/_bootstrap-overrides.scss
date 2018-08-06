@@ -21,7 +21,7 @@ a {
 }
 
 .bg-textcolor {
-  background-color: $text-color !important;
+  //background-color: $text-color !important;
 }
 
 
@@ -33,55 +33,32 @@ a {
   color: $secondary !important;
 }
 
-.btn-primary {
-  background-color: $primary;
-  border-color: $primary;
+.bg-dark-ch .btn-outline-primary {
+  color: $txt-on-bg-dark!important;
+  border-color: $txt-on-bg-dark!important;
   &:hover,
   &:focus,
   &:active {
-    background-color: darken($primary, 10%);
-    border-color: darken($primary, 10%);
+    color: $background-dark!important;
+    background-color: $txt-on-bg-dark!important;
   }
 }
 
-.btn-secondary {
-  background-color: $secondary;
-  border-color: $secondary;
+.bg-light-ch .btn-outline-primary {
+  color: $txt-on-bg-light!important;
+  border-color: $txt-on-bg-light!important;
   &:hover,
   &:focus,
   &:active {
-    background-color: lighten($secondary, 10%);
-    border-color: lighten($secondary, 10%);
-  }
-}
-
-
-.btn-outline-primary {
-  color: $text-color!important;
-  border-color: $text-color!important;
-  &:hover,
-  &:focus,
-  &:active {
-    color: $primary!important;
-    background-color: $text-color!important;
-  }
-}
-
-.btn-outline-secondary {
-  color: $text-color!important;
-  border-color: $text-color!important;
-  &:hover,
-  &:focus,
-  &:active {
-    color: $text-on-primary!important;
-    background-color: $primary!important;
+    color: $background-light!important;
+    background-color: $txt-on-bg-light!important;
   }
 }
 
 
 .floating-label-form-group {
   position: relative;
-  border-bottom: 1px solid $text-color;
+  //border-bottom: 1px solid $text-color;
 }
 
 .form-control:focus {
@@ -93,16 +70,16 @@ label {
 }
 
 .form-control {
-  color: $text-color!important;
+  //color: $text-color!important;
 }
 ::placeholder {
-  color: $text-on-primary!important;
+  //color: $text-on-primary!important;
 }
 
 
 .btn-outline-secondary {
-  color: $primary!important;
+  //color: $primary!important;
   background-color: transparent;
   background-image: none;
-  border-color: $primary!important;
+  //border-color: $primary!important;
 }
