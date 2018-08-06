@@ -25,7 +25,7 @@
       opacity: 0;
       background-color: fade-out($background-dark-variant, .1);
       color: $txt-on-bg-dark-variant;
-      border-radius: 5px;
+      border-radius: 3px;
       &:hover {
         opacity: 1;
       }

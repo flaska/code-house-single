@@ -105,6 +105,11 @@ strong {
   font-weight: 500;
 }
 
+.btn:hover, #section a:hover {
+  box-shadow: 0 0 20px #252525;
+  text-shadow: 0 0 20px #252525;
+}
+
 #mainNav {
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -284,7 +289,7 @@ header.masthead h2 {
   opacity: 0;
   background-color: rgba(48, 61, 59, 0.9);
   color: #E9E4E1;
-  border-radius: 5px;
+  border-radius: 3px;
 }
 
 .portfolio .portfolio-item .portfolio-item-caption:hover {

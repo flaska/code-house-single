@@ -104,3 +104,8 @@ section {
 strong {
   font-weight: 500;
 }
+
+.btn:hover, #section a:hover {
+  box-shadow: 0 0 20px #252525;
+  text-shadow: 0 0 20px #252525;
+}
