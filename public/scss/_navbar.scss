@@ -14,9 +14,11 @@
       a.nav-link {
         color: $background-light;
         &:hover,
-        &:active,
         &:focus {
           color: $background-dark;
+        }
+        &.active {
+          text-decoration: underline;
         }
       }
     }
@@ -41,14 +43,6 @@
     }
     .navbar-nav {
       margin-top: 0;
-    }
-    .navbar-nav > li.nav-item > a.nav-link.active {
-      color: $background-light;
-      &:hover,
-      &:active,
-      &:focus {
-        color: $background-dark;
-      }
     }
   }
   #mainNav.navbar-shrink {

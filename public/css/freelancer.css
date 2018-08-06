@@ -125,8 +125,12 @@ strong {
   color: #E9E4E1;
 }
 
-#mainNav .navbar-nav li.nav-item a.nav-link:hover, #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
+#mainNav .navbar-nav li.nav-item a.nav-link:hover, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
   color: #CFC0BD;
+}
+
+#mainNav .navbar-nav li.nav-item a.nav-link.active {
+  text-decoration: underline;
 }
 
 #mainNav .navbar-toggler {
@@ -150,12 +154,6 @@ strong {
   }
   #mainNav .navbar-nav {
     margin-top: 0;
-  }
-  #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
-    color: #E9E4E1;
-  }
-  #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus {
-    color: #CFC0BD;
   }
   #mainNav.navbar-shrink {
     padding-top: 0.25rem;
