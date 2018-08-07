@@ -110,6 +110,23 @@ strong {
   text-shadow: 0 0 20px #252525;
 }
 
+.light-glow {
+  box-shadow: 0px 0px 14px 6px #ffffff82;
+  background-color: #ffffff82;
+}
+
+.dark-outline-glow {
+  box-shadow: 0px 0px 5px  #000;
+}
+
+.dark-text-glow {
+  text-shadow: 0px 0px 5px  #000;
+}
+
+section {
+  border-top: 1px solid grey;
+}
+
 #mainNav {
   padding-top: 1rem;
   padding-bottom: 1rem;
